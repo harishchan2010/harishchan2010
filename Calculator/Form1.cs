@@ -48,11 +48,5 @@ namespace Calculator
             Input2.Text = string.Empty;
             Output.Text = string.Empty;
         }
-
-        private void Input1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !char.IsDigit(e.KeyChar);
-        }
-        
     }
 }
